@@ -25,6 +25,15 @@
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+        <style>
+            .plug {
+                padding-top: 50px;
+                text-align: center;
+                font-size: 72px;
+                background-color: green;
+                color: #e43315;
+            }
+        </style>
     
     <!-- Основний контейнер сторінки -->
     <div class="main_wrapper">
@@ -85,7 +94,7 @@
             </div>
 
             <!-- Кнопка замовлення -->
-            <a href="#order_form" class="button">Замовити зі знижкою X%</a>
+            <a href="#order_form" class="button">Замовити зі знижкою 23%</a>
 
             <!-- Секція з описом -->
             <section class="description_section">
@@ -135,8 +144,9 @@
         <section class="description_section">
             <!-- Заголовок та контейнер відео -->
             <h2 class="title"><span>Відео огляд</span> </h2>
-            <div class="video-container">
-                <video width="100%" autoplay="" loop="" muted="" controls="" playsinline="" src="media/video.mp4"></video>
+            <div class="video-container plug">
+                <!-- <video width="100%" autoplay="" loop="" muted="" controls="" playsinline="" src="media/video.mp4"></video> -->
+                <h1>[video]</h1>        
             </div>
         </section>
 
@@ -147,14 +157,14 @@
             <div class="reviews_list4">
                 <div class="review_item">
                     <div class="text_block">
-                        <img class="offer_image" src="images/rev2.jpg" alt="">
+                        <img class="offer_image" src="images/rev.jpg" alt="">
                         <div class="author_info">м. Львів, Ірина</div>
                         <p>Я давно хотіла на кухню гарну тертку, але не могла вибрати. Вирішила ось у вас замовити, якість клас! Особливе дякую за швидку доставку)))</p>
                     </div>
                 </div>
                 <div class="review_item">
                     <div class="text_block">
-                        <img class="offer_image" src="images/rev1.jpg" alt="">
+                        <img class="offer_image" src="images/rev.jpg" alt="">
                         <div class="author_info">м. Київ, Світлана</div>
                         <p>Ця овочерізка – це просто супер-знахідка! Зараз, коли вона в мене є, я навіть не знаю, як я жила без неї! Вона абсолютно незамінна у мене на кухні! Вона робить практично все. Нарізки - на будь-який смак, насадок дуже багато, плюс друшляк!</p>
                     </div>
@@ -212,7 +222,7 @@
                 document.write(p.getDate() + '.' + 
                 monthA[p.getMonth()] + '.' + p.getFullYear());
             </script>
-                включно по всій території України
+                включно по всій території України, окрім тимчасово окупованих територій.
             </p>
         </section>
         
